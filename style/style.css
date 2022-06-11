@@ -1,1 +1,133 @@
+a 
+{
+  color: #000000;
+  text-decoration: none;
+}
 
+body
+{
+  font-family: Roboto Mono, sans-serif;
+}
+
+h1
+{
+  margin: 0 0 10px;
+  font-size:60px;
+}
+
+h2
+{
+  margin: 0 0 0px;
+  font-size:16px;
+}
+
+.content
+{
+  width: 750px;
+  margin: auto;
+}
+
+header
+{
+  text-align: center;
+  margin: auto;
+}
+
+.fig
+{
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img
+{
+  width: 100%;
+}
+
+.break-next
+{
+  border-top: 1px solid black;
+  width:10%;
+}
+
+.break-next-long
+{
+  border-top: 1px solid black;
+  width:50%;
+}
+
+.break-end
+{
+  border-top: 2px dashed black;
+  width:100%;
+}
+
+table
+{
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  margin:50px 0;
+  width:100%;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary td
+{
+  padding: 9px;
+  line-height: 0.5;
+  text-align: left;
+}
+
+td, th
+{
+  border: 1px solid rgb(190,190,190);
+  padding: 9px;
+  line-height: 1.5;
+}
+
+tr:nth-child(even) td
+{
+  background-color: rgb(250,250,250);
+}
+  
+tr:nth-child(odd) td
+{
+  background-color: rgb(245,245,245);
+}
+
+.code_text
+{
+	text-align: center;
+}
+
+.code
+{
+  border-collapse: collapse;
+  border: 2px dashed rgb(200,200,200);
+  margin:50px 0;
+  width:900px;
+  background-color: rgb(250, 250, 250);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code_td
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+blockquote
+{
+  border-left: 5px solid rgb(0, 0, 0);
+  margin: 1.5em 0px;
+  padding: 0.5em 10px;
+}
